@@ -44,7 +44,7 @@ def stage1():
         print(Graphics.Gamecompanion)
         print(" Welcome to Game companion \n", Graphics.Rever)
         time.sleep(3)
-        print(" Press N to exit, or press any key to get started")
+        print(" \n Press N to exit, or press any key to get started")
         A = input(" user: ")
         if A == "N" or A == "n":
             stageExist()
