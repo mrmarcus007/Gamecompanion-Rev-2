@@ -135,7 +135,7 @@ def exiting(t):
             os.system('cls')
             print(Graphics.Bye)
             print(" Gamecompanion By Marcus Allison")
-            print(Graphics.Rever)
+            print( Graphics.Rever)
             print("\n Terminated program")
             os._exit(1)
 
