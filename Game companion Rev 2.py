@@ -47,7 +47,7 @@ def stage1():
         print(" \n Press N to exit, or press any key to get started")
         A = input(" user: ")
         if A == "N" or A == "n":
-            stageExist()
+            stagexist()
         else:
             fsetup()
     except:
@@ -72,7 +72,7 @@ def menu():
     elif B == "3" or B == "3.":
         coins()
     elif B == "4" or B == "4.":
-        stageExist()
+        stagexist()
     else:
         nodata()
 
@@ -166,7 +166,7 @@ def coins():
     os.system('cls')
     menu()
 
-def stageExist():
+def stagexist():
     os.system('cls')
     print(Graphics.Warning)
     print("\n Are you sure you would like to terminate the program? \n Y: terminate \n N: back to menu")
@@ -178,6 +178,6 @@ def stageExist():
         entrycheck()
     else: 
         os.system('cls')
-        stageExist()
+        stagexist()
 
 stage1()
